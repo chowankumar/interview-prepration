@@ -1,0 +1,136 @@
+Q1 : what is html?
+HTML is a markup language that uses tags to define elements such as headings, paragraphs, links, images, and forms, allowing web browsers to display content correctly on a webpage.
+HyperText: Text that contains links to other text or pages
+Markup: Uses tags to mark and structure content
+Language: A set of rules understood by web browsers
+
+Q2 : What is the function of the browser? 
+To read HTML documents and display them.
+
+Q3 : What is a Tag? 
+A keyword surrounded by angle brackets (e.g., <html>).
+
+Q4 : What is an Element? 
+The start tag, content, and end tag (e.g., <p>Hello</p>).
+
+Q5 : What is an Attribute? Provides additional info about an element.
+
+Q6 : What is the root element of an HTML page? 
+<html>.
+
+Q7 : What is the <!DOCTYPE>? 
+It's not a tag; it's a declaration telling the browser the HTML version (HTML5).
+
+Q8 : What happens if you remove <!DOCTYPE>? 
+The browser goes into "Quirks Mode" and may render layout incorrectly.
+
+Q9 : Is HTML case sensitive? 
+No, but lowercase is the standard convention (and required in JSX).
+
+Q10 : Where do you define metadata? 
+In the <head> section.
+
+Q11 : Where does the visible content go? 
+In the <body> section.
+
+Q12 : How do you add comments in HTML? 
+<!-- Comment here -->.
+
+Q13 : Can comments be seen in the browser? 
+Not on the UI, but yes in the "View Source" code
+
+Q14 : What is an Empty (Void) Element? 
+An element with no closing tag (e.g., <br>, <img>, <input>).
+
+Q15 : What is nesting? 
+Placing elements inside other elements.
+
+Q16 : What is the correct extension for HTML files? 
+.html or .htm.
+
+Q17 : What is the lang attribute in the <html> tag? 
+It declares the language (e.g., en) for screen readers and search engines.
+
+Q18 : What character encoding is recommended? 
+UTF-8. is liye recommend ki jati hai kyun ke yeh almost tamam zabanon ke haroof aur symbols ko support karti hai.
+
+Q19 : How do you set the character encoding? 
+<meta charset="UTF-8">.
+
+Q20 : What is the title tag used for? 
+The text shown on the browser tab and search engine results.
+
+Q21 : What is a Block-level element?
+A block-level element starts on a new line and takes the full width of the page (e.g., <div>, <p>, <h1>).
+
+Q22 : What is an Inline element?
+An inline element stays on the same line and only takes as much width as needed (e.g., <span>, <a>, <b>).
+
+Q23 : What is <div>?
+<div> is a generic block-level container used to group elements for layout or styling.
+
+Q24 : What is <span>?
+<span> is a generic inline container used to style or modify small parts of text.
+
+Q25 : How many heading tags are there?
+There are six heading tags in HTML: <h1> to <h6>.
+
+Q26 : Which heading is most important for SEO?
+<h1> is the most important because it defines the main topic of the page.
+
+Q27 :  Should you use headings just to resize text?
+No, headings are for structure; text resizing should be done using CSS.
+
+Q28. What does <p> stand for?
+<p> stands for paragraph and is used to write blocks of text.
+
+Q29. What does <br> do?
+<br> inserts a single line break without starting a new paragraph.
+
+Q30. What does <hr> do?
+<hr> creates a horizontal line to show a thematic break between content.
+
+Q31. What is <pre>?
+<pre> shows preformatted text and keeps spaces and line breaks as written.
+
+Q32. Difference between <b> and <strong>?
+<b> makes text bold visually, while <strong> shows importance and is meaningful for screen readers.
+
+Q33. Difference between <i> and <em>?
+<i> italicizes text visually, while <em> adds emphasis with semantic meaning.
+
+Q34. What is <small>?
+<small> is used for side notes, disclaimers, or copyright text.
+
+Q35. What is <mark>?
+<mark> highlights text, usually with a yellow background.
+
+Q36. What is <del>?
+<del> shows deleted or removed text with a line through it.
+
+Q37. What is <ins>?
+<ins> shows inserted or added text, usually underlined.
+
+Q38. What is <sub>?
+<sub> displays subscript text, like H₂O.
+
+Q39. What is <sup>?
+<sup> displays superscript text, like X².
+
+Q40. What is <blockquote>?
+<blockquote> is used for long quotations taken from another source.
+
+Q41. What is <q>?
+<q> is used for short inline quotations and adds quotation marks automatically.
+
+Q42. What is <abbr>?
+<abbr> defines abbreviations and shows full meaning on hover using the title attribute.
+
+Q43. What is <address>?
+<address> contains contact information of the author or website owner.
+
+Q44. What is <code>?
+<code> is used to display programming or computer code.
+
+Q45. What is <kbd>?
+<kbd> represents keyboard input, such as Ctrl + C.
