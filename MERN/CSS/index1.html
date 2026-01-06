@@ -1,0 +1,46 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    color: blue;
+  }
+
+  p {
+    /* No color or font-family defined here */
+  }
+</style>
+
+<body>
+  <p>This paragraph inherits font and color from body.</p>
+</body>
+
+
+
+<style>
+  div {
+    color: red;
+  }
+
+  span {
+    color: inherit; /* forces inheritance */
+  }
+</style>
+
+<div>
+  This is a div <span>and this span inherits red color.</span>
+</div>
+
+
+
+<style>
+  p {
+    color: green;
+    font-size: 20px;
+  }
+
+  span {
+    color: initial; /* reset to browser default */
+  }
+</style>
+
+<p>This is a paragraph <span>and this span has default color.</span></p>
+The paragraph is green, but the span text color goes back to black (default for most browsers).

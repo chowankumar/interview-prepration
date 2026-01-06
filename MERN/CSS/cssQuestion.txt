@@ -1,0 +1,113 @@
+1.What does CSS stand for? – Cascading Style Sheets.
+
+2.What is the main role of CSS? – To style and control the layout of web pages.
+
+3.Who maintains the CSS specifications? – The World Wide Web Consortium (W3C).
+
+4.What are the three ways to insert CSS? – Inline, Internal, and External.
+
+5.Which integration method is best for performance? – External stylesheets.
+
+6.What is the syntax for a CSS comment? – /* comment */.
+
+7.What is a CSS selector? – A pattern used to select HTML elements to style.
+
+8.How do you select an element by ID? – Use the # symbol (e.g., #header).
+
+9.How do you select an element by Class? – Use the . symbol (e.g., .btn).
+
+10.How do you select all elements on a page? – Use the universal selector *.
+
+11.What is a Type (Tag) selector? – Selecting elements by their tag name (e.g., div, p).
+
+12.What is a Grouping selector? – Selecting multiple elements separated by commas (e.g., h1, h2).
+
+13.What is the Descendant selector? – Selects nested elements (e.g., div p).
+
+14.What is the Child selector? – Selects direct children (e.g., div > p).
+
+15.What is the Adjacent Sibling selector? – Selects the element immediately following another (e.g., h1 + p).
+
+What is the General Sibling selector? – Selects all elements following another (e.g., h1 ~ p).
+
+What is an Attribute selector? – Selects elements based on an attribute (e.g., input[type="text"]).
+
+Can an element have multiple classes? – Yes, separated by spaces.
+
+Can an element have multiple IDs? – No, IDs must be unique per page.
+
+What is the default font size in most browsers? – 16px.
+
+What is the !important rule? – It overrides all other style rules.
+
+Why avoid !important? – It breaks the natural cascading rules and makes debugging hard.
+
+What is CSS Specificity? – A ranking system that decides which style applies when rules conflict.
+
+Which has higher specificity: ID or Class? – ID.
+
+Which has higher specificity: Class or Tag? – Class.
+
+Which has higher specificity: Inline style or ID? – Inline style.
+
+What is CSS Inheritance? – When child elements inherit styles (like font) from parents.
+
+What is the CSS Box Model? – A box wrapping every element containing margin, border, padding, and content.
+
+What is the innermost part of the Box Model? – The Content area.
+
+What is Padding? – Space between the content and the border.
+
+What is Border? – A line surrounding the padding and content.
+
+What is Margin? – Space outside the border.
+
+Does padding allow negative values? – No.
+
+Does margin allow negative values? – Yes.
+
+What is the background of the margin? – It is always transparent.
+
+What is box-sizing? – Determines how total width/height is calculated.
+
+What is content-box? – Default; width includes only content.
+
+What is border-box? – Width includes content, padding, and border.
+
+Why use border-box? – It prevents layouts from breaking when padding is added.
+
+What is Margin Collapse? – When top/bottom margins of adjacent elements combine into one.
+
+Does margin collapse happen horizontally? – No, only vertically.
+
+What is the border-style property? – Specifies the line style (solid, dotted, etc.).
+
+What is the default border color? – The color of the text (currentColor).
+
+What is border-radius? – Rounds the corners of an element.
+
+How to make a circle with CSS? – Set width = height and border-radius: 50%.
+
+What is outline? – A line drawn outside the border.
+
+Does outline take up space? – No, it overlaps other content.
+
+What is the difference between outline and border? – outline doesn't affect layout; border does.
+
+How do you remove the focus ring on inputs? – outline: none; (but replace it for accessibility).
+
+What is min-width? – The element cannot be narrower than this.
+
+What is max-width? – The element cannot be wider than this.
+
+What happens if content overflows width? – It spills out unless handled.
+
+What is overflow property? – Controls what happens to clipped content.
+
+What does overflow: hidden do? – Hides the overflow content.
+
+What does overflow: scroll do? – Adds scrollbars permanently.
+
+What does overflow: auto do? – Adds scrollbars only if needed.
+
+What is margin: 0 auto used for? – Centering a block element horizontally.
