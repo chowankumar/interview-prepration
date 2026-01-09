@@ -1,0 +1,239 @@
+What is JavaScript?
+JavaScript is a programming language used to make web pages interactive and dynamic.
+
+Why is JavaScript called a scripting language?
+Because it runs inside another program (like a browser) and is mainly used to control and automate tasks.
+
+Difference between JavaScript and Java
+JavaScript is interpreted and dynamically typed, while Java is compiled and statically typed.
+
+Is JavaScript compiled or interpreted?
+JavaScript is interpreted (with just-in-time compilation in modern engines).
+
+Where does JavaScript run?
+JavaScript runs in web browsers and on servers using Node.js.
+
+What is ECMAScript?
+ECMAScript is the standard that defines the rules and features of JavaScript.
+
+What is ES6?
+ES6 is the 2015 version of ECMAScript that introduced modern features like let, const, and arrow functions.
+
+How to add JavaScript to HTML?
+JavaScript can be added using inline code, an internal <script> tag, or an external JS file.
+
+What is <script> tag?
+The <script> tag is used to write or include JavaScript in an HTML document.
+
+What is an external JS file?
+A separate .js file linked to an HTML page using the <script src=""> attribute.
+
+What is console.log()?
+console.log() is used to display messages in the browser console.
+
+What is alert()?
+alert() shows a popup message to the user.
+
+What is prompt()?
+prompt() displays a dialog box that asks the user for input.
+
+What is confirm()?
+confirm() shows a dialog box with OK and Cancel and returns true or false.
+
+What is a statement?
+A statement is a line of code that performs an action.
+
+What is a comment?
+A comment is text ignored by JavaScript, used to explain code.
+
+Types of comments in JavaScript
+Single-line (//) and multi-line (/* */) comments.
+
+Is JavaScript case-sensitive?
+Yes, JavaScript is case-sensitive.
+
+What is a syntax error?
+A syntax error occurs when code does not follow JavaScript grammar rules.
+
+What is runtime error?
+A runtime error occurs while the program is running.
+
+What is debugging?
+Debugging is the process of finding and fixing errors in code.
+
+What is browser console?
+The browser console is a tool used to view errors and run JavaScript code.
+
+What is Node.js?
+Node.js is a runtime environment that allows JavaScript to run outside the browser.
+
+What is a keyword?
+A keyword is a reserved word with a special meaning in JavaScript.
+
+List JavaScript reserved words
+Examples include let, var, const, if, else, for, while, return, function, class.
+
+What is whitespace?
+Whitespace includes spaces, tabs, and line breaks used to format code.
+
+What is strict mode?
+Strict mode enforces stricter rules to write safer JavaScript code.
+
+How to enable strict mode?
+By writing "use strict"; at the beginning of a script or function.
+
+What happens if JS has an error?
+The script stops executing and an error message appears in the console.
+
+What is a JS engine?
+A JS engine is a program that executes JavaScript code, such as V8 or SpiderMonkey.
+
+What is a variable?
+A variable is a container used to store data values in a program.
+
+Why variables are used?
+Variables are used to store, reuse, and manipulate data easily.
+
+What is var?
+var is a keyword used to declare variables with function scope.
+
+What is let?
+let is a keyword used to declare variables with block scope.
+
+What is const?
+const is a keyword used to declare variables whose value cannot be reassigned.
+
+Difference between var, let, const
+var is function-scoped and can be redeclared, let is block-scoped and cannot be redeclared, const is block-scoped and cannot be reassigned.
+
+What is variable scope?
+Scope defines where a variable can be accessed in a program.
+
+What is global scope?
+Variables declared outside any function have global scope and are accessible everywhere.
+
+What is local scope?
+Variables declared inside a function are local and accessible only within that function.
+
+What is block scope?
+Variables declared inside {} using let or const have block scope.
+
+What is hoisting?
+Hoisting is JavaScript behavior where variable and function declarations are moved to the top.
+
+Which variables are hoisted?
+var declarations are hoisted (initialized as undefined); let and const are hoisted but not initialized.
+
+What happens if variable not declared?
+It becomes a global variable (or causes an error in strict mode).
+
+What is undefined?
+A variable declared but not assigned a value is undefined.
+
+What is null?
+null represents an intentional empty or no value.
+
+Difference between null and undefined
+undefined means no value assigned; null means value intentionally set to empty.
+
+What is a data type?
+A data type defines the kind of value a variable can hold.
+
+Primitive data types
+Number, String, Boolean, Undefined, Null, Symbol, BigInt.
+
+Non-primitive data types
+Object, Array, Function.
+
+What is Number type?
+A data type used to store numeric values (integers and decimals).
+
+What is String type?
+A data type used to store text.
+
+What is Boolean type?
+A data type with two values: true or false.
+
+What is Symbol?
+A unique and immutable primitive data type used as object keys.
+
+What is BigInt?
+A data type used to store very large integers.
+
+What is typeof operator?
+An operator used to check the data type of a value.
+
+Check type of variable
+Use typeof variableName.
+
+Convert string to number
+Using Number(), parseInt(), or parseFloat().
+
+Convert number to string
+Using String() or .toString().
+
+What is NaN?
+NaN means “Not a Number” and occurs when a number operation fails.
+
+How to check NaN?
+Use isNaN() or Number.isNaN().
+
+What is type coercion?
+Automatic or manual conversion of one data type into another.
+
+Implicit coercion
+Automatic type conversion done by JavaScript.
+
+Explicit coercion
+Manual type conversion by the programmer.
+
+What is template literal?
+A string created using backticks that allows embedded expressions.
+
+What is string interpolation?
+Inserting variables or expressions inside a template literal using ${}.
+
+Difference between "" and ''
+There is no functional difference; both create strings.
+
+What is backtick (`)?
+Used to create template literals in JavaScript.
+
+What is constant variable?
+A variable declared with const whose value cannot be reassigned.
+
+Can const value change?
+The reference cannot change, but object or array contents can change.
+
+Reassign let variable?
+Yes, let variables can be reassigned.
+
+Redeclare var variable?
+Yes, var variables can be redeclared in the same scope.
+
+Best practice for variables
+Use const by default, let when reassignment is needed, avoid var.
+
+Naming rules for variables
+Must start with a letter, _, or $ and cannot use reserved words.
+
+CamelCase naming
+A naming style where words start with lowercase and next words start with uppercase (e.g., userName).
+
+Snake_case naming
+A naming style where words are separated by underscores (e.g., user_name).
+
+What is memory allocation?
+The process of reserving memory for variables and data.
+
+What is garbage collection?
+Automatic removal of unused memory by JavaScript.
+
+Mutable vs immutable
+Mutable data can be changed; immutable data cannot be changed.
+
+Example of immutable type
+String, Number.
+
+Example of mutable type
+Object, Array.
