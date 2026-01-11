@@ -16,6 +16,7 @@
 16 Use `map()` to double all the elements in an array.
 17 Find the largest element in an array using the `reduce()` method.
 18 Remove all occurrences of a specific element from an array.\
+
 19 Create a function that displays the current date and time in a specific format.
 20 Implement a try-catch block to handle an error that occurs during API data fetching.
 21 Write a recursive function to calculate the factorial of a given number.

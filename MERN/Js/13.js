@@ -1,9 +1,4 @@
-//Write a function that calculates the factorial of a given number.
-//fact of 5 = 5 * 4 * 3 * 2 * 1 = 120
-// fact of 0 = 1;
-//fact of 1 = 1;
-
-function factorial(num) {
+ function factorial(num) {
     if(num === 0 || num === 1){
         return 1;
     }
