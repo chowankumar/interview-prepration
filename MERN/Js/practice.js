@@ -1,4 +1,18 @@
-function randomNum(arr,num2){
-    return arr.filter(num => num!= num2)
+async function fetchData(url){
+  try {
+    const response = await fetch(url);
+    if(!response.ok){
+        throw new Error("failed with reposne" +response.status);
+
+    }
+    return await(response.json())
+    
+  } catch (error) {
+    console.log(error)
+    
+  }
+
+
 }
-console.log(randomNum([2,4,8,6,7,8,8],8))
+fetchData("https://jsonplaceholder.typicode.com/posts")
+.then(data => console.log(data)) 

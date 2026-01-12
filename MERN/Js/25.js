@@ -19,9 +19,9 @@ const totalValue2 = product2.calculateTotalValue();
 console.log(`Total Value of ${product1.name}: $${totalValue1}`)
 console.log(`Total Value of ${product2.name}: $${totalValue2}`)
 
-console.log(Product.prototype);
 
 console.log(product1)
+console.log(product2)
 
 // Prototype : An object from which other objects inherit methods and properties.
 // this : refers to the current object instance being created.

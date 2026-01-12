@@ -8,6 +8,7 @@ function makeAPICall(url){
      console.log('Processed Data',data);
  }
  
+ 
  function main(){
  
      const apiUrl1 = 'https://jsonplaceholder.typicode.com/posts/1';
