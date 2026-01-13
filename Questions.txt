@@ -29,3 +29,6 @@
 28 Use Promises to load multiple images asynchronously and display them on a webpage.
 29 Rewrite the previous exercise using async/await.
 30 Implement an async function to fetch data from an API and handle errors using try/catch.
+32 Implement a form validation function that checks if all required fields are filled out.
+31 Create an image gallery using dynamically generated elements.
+33 Create multiple nested elements and observe the event bubbling and capturing behavior.

@@ -6,37 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <p id="imageContainer">
-        
+
+    <p id="parent">
+        Lorem ipsum dolor sit amet <strong id="child">helllo child</strong> consectetur adipisicing elit. Omnis, voluptas ratione. Optio cumque sit, debitis laborum quam minima corporis asperiores!
     </p>
+    
 
     <script>
+        let parent = document.getElementById("parent");
+        let child = document.getElementById("child");
 
-        let imageContainer = document.getElementById("imageContainer");
-        let imageUrls=["./image/1.jpeg","./image/2.jpg","./image/3.jpg"];
-        
-        function loadImage(src){
-            return new Promise((resolve,reject)=>{
-                let img = new Image();
-                img.onload = function(){
-                    resolve(img)
-                };
-                img.onerror = function(){
-                    reject(new Error("failded"))
-                }
-
-                img.src = src
-            })
-
-        }
-
-        Promise.all(imageUrls.map(loadImage))
-        .then(image => image.forEach(image => imageContainer.append))
-        
-
-
-
+        parent.addEventListener('click',()=>{
+            console.log("parent")
+        })
+        child.addEventListener('click',()=>{
+            console.log("child")
+        })
     </script>
 </body>
 </html>
