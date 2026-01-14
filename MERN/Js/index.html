@@ -6,22 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-
-    <p id="parent">
-        Lorem ipsum dolor sit amet <strong id="child">helllo child</strong> consectetur adipisicing elit. Omnis, voluptas ratione. Optio cumque sit, debitis laborum quam minima corporis asperiores!
-    </p>
     
-
+    <h1 id="quote">hello wait for the quotes</h1>
     <script>
-        let parent = document.getElementById("parent");
-        let child = document.getElementById("child");
+        const quotes = [
+        "The only way to do great work is to love what you do. - Steve Jobs",
+      "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+      "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+      "In order to succeed, we must first believe that we can. - Nikos Kazantzakis",
+      "Your time is limited, don't waste it living someone else's life. - Steve Jobs","Subscribe to Drop X Out"
+        ];
 
-        parent.addEventListener('click',()=>{
-            console.log("parent")
-        })
-        child.addEventListener('click',()=>{
-            console.log("child")
-        })
+        function displayRandomQuotes(){
+            let qoutedisplay = document.getElementById("quote");
+            let randomNo = Math.floor(Math.random()*quotes.length);
+            qoutedisplay.textContent = quotes[randomNo];
+
+        }
+        displayRandomQuotes();
+
+        function runwihcount(){
+            displayRandomQuotes()
+            setTimeout(runwihcount,10000);
+        }
+
+        runwihcount()
+
     </script>
 </body>
 </html>

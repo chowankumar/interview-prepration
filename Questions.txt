@@ -32,3 +32,7 @@
 32 Implement a form validation function that checks if all required fields are filled out.
 31 Create an image gallery using dynamically generated elements.
 33 Create multiple nested elements and observe the event bubbling and capturing behavior.
+34 Implement a click event on a parent element that triggers different actions based on which child element was clicked.
+35 You are tasked with creating a countdown timer using JavaScript and the setInterval function. The countdown timer should start at 1 minute (60 seconds) and update every second until it reaches 00:00. When the countdown reaches zero, an alert should pop up to notify that the countdown is completed.
+36 Write the JavaScript code to implement the quote-changing feature.
+37 Write a regular expression to validate an email address.
