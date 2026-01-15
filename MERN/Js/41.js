@@ -21,5 +21,4 @@ class Magazine extends Book{
 const myMagazine = new Magazine('Dxo','Zayn',2023,5);
 console.log(myMagazine.title);
 
-
 console.log(myMagazine.getIssueNumber())

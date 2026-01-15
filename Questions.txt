@@ -36,3 +36,7 @@
 35 You are tasked with creating a countdown timer using JavaScript and the setInterval function. The countdown timer should start at 1 minute (60 seconds) and update every second until it reaches 00:00. When the countdown reaches zero, an alert should pop up to notify that the countdown is completed.
 36 Write the JavaScript code to implement the quote-changing feature.
 37 Write a regular expression to validate an email address.
+39 Destructure an object to get its properties.
+40.Create a class representing a Book with properties like title, author, and year.Add a method to the Book class to get the book's age (current year - year of publication).
+41 Create a subclass `Magazine` that extends the `Book` class with an additional property `issue`.Add a method to the `Magazine` class to get the magazine's issue number.
+
