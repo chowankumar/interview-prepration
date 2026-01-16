@@ -1,4 +1,4 @@
-//Create a function that takes an array of objects (groceries) which calculates the total price and returns it as a number.
+
 function getTotalPrice(groceries){
 let total = 0;
 

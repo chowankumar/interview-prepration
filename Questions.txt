@@ -39,4 +39,8 @@
 39 Destructure an object to get its properties.
 40.Create a class representing a Book with properties like title, author, and year.Add a method to the Book class to get the book's age (current year - year of publication).
 41 Create a subclass `Magazine` that extends the `Book` class with an additional property `issue`.Add a method to the `Magazine` class to get the magazine's issue number.
-
+42 Create an object `person` with properties like name and age. Then, create a new object `student` that inherits from `person` and has an additional property `studentId`.Add a method to the `person` object and demonstrate that `student` also has access to it.
+43 Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".oddorEven(121) = 1+2+1 = 4 , oddorEven(41) = 4+1 = 5 //oddish
+44 Given a string, reverse all the words which have odd length. The even length words are not changed.reverseOdd("Apple") => elppA ,reverseOdd("One Two Four") => enO owT Four.
+45 Create a function that takes an array of objects (groceries) which calculates the total price and returns it as a number.
+46 Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
