@@ -1,0 +1,86 @@
+1. Basics (Foundation)
+What is JavaScript
+Variables (var, let, const)
+Data Types (string, number, boolean, null, undefined, object)
+Operators (arithmetic, comparison, logical)
+Type Conversion
+🟢 2. Control Flow
+if, else, else if
+switch
+Loops:
+for
+while
+do...while
+break and continue
+🟢 3. Functions
+Function Declaration
+Function Expression
+Arrow Functions
+Parameters & Return values
+Default Parameters
+Callback Functions
+🟢 4. Arrays
+Creating arrays
+Array methods:
+push, pop
+shift, unshift
+map, filter, reduce
+Iteration (forEach)
+🟢 5. Objects
+Object creation
+Accessing properties
+Methods in objects
+this keyword
+Object destructuring
+🟢 6. DOM Manipulation (Important for Web)
+Selecting elements:
+getElementById
+querySelector
+Changing content & styles
+Event handling (click, input)
+Forms handling
+🟢 7. ES6+ Features (Modern JS)
+let & const
+Template literals
+Destructuring
+Spread & Rest operators
+Modules (import/export)
+Optional chaining (?.)
+🟢 8. Asynchronous JavaScript
+Callbacks
+Promises
+async/await
+Fetch API (API calls)
+🟢 9. Error Handling
+try...catch
+Throwing errors
+🟢 10. Advanced Concepts
+Closures
+Scope (global, local, block)
+Hoisting
+Prototypes
+Classes (OOP in JS)
+Event Loop
+🟢 11. Browser Storage
+Local Storage
+Session Storage
+Cookies
+🟢 12. Working with APIs
+REST APIs
+JSON
+Fetch / Axios
+🟢 13. Tooling & Ecosystem
+NPM (Node Package Manager)
+Bundlers (Webpack, Vite)
+Babel
+🟢 14. Node.js (Backend JS)
+Basics of Node.js
+File system
+Express.js
+APIs creation
+🟢 15. Advanced Topics (Pro Level)
+Design Patterns
+Memory management
+WebSockets
+Authentication (JWT)
+Testing (Jest)
